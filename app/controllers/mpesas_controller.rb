@@ -24,8 +24,8 @@ class MpesasController < ApplicationController
         'CallBackURL': "https://2ed1-102-219-210-194.in.ngrok.io",
         # 'CallBackURL': "#{ENV["CALLBACK_URL"]}/callback_url",
         # 'CallBackURL': callbackurl,
-        'AccountReference': 'Codearn',
-        'TransactionDesc': "Payment for Codearn premium"
+        'AccountReference': 'ED-3D',
+        'TransactionDesc': "Payment of 3D Design"
         }.to_json
 
         headers = {
